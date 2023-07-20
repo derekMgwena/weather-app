@@ -1,0 +1,14 @@
+/* Set some common styles for the body of the webpage */
+body {
+  margin: 0; /* Remove default margin to avoid unwanted spacing */
+  font-family: "Roboto", Arial, sans-serif !important; /* Use the 'Roboto' font for the text */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering on webkit-based browsers (e.g., Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* Improve font rendering on macOS */
+  background-color: #d5d4d4; /* Set the background color of the body to a light gray (#d5d4d4) */
+}
+
+/* Styles for <code> elements */
+code {
+  /* Specify font-family for <code> elements to display code snippets */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

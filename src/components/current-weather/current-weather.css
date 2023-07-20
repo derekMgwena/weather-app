@@ -1,0 +1,80 @@
+/* Styles for the weather container */
+.weather {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: #fff;
+  background-color: #333;
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+}
+
+/* Styles for the top and bottom sections within the weather container */
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for the city name */
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Styles for the weather description */
+.weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+/* Styles for the weather icon */
+.weather-icon {
+  width: 100px;
+}
+
+/* Styles for the temperature display */
+.temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+/* Styles for the container of weather details */
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+/* Styles for each row containing a weather parameter */
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the label of each weather parameter */
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Styles for the value of each weather parameter */
+.parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* Styles for the top border of the first weather parameter row */
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
+}
